@@ -53,5 +53,5 @@ if uploaded_file is not None:
     # Output
     if prediction > 0.5:
         st.error("❌ No Mask Detected")
-    else:
+    :
         st.success("✅ Mask Detected")
