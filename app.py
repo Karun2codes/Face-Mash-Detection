@@ -55,3 +55,4 @@ if uploaded_file is not None:
         st.error("❌ No Mask Detected")
     else:
         st.success("✅ Mask Detected")
+        x=1/10
